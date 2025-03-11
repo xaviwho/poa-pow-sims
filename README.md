@@ -24,7 +24,7 @@ This repository contains tools to analyze gas consumption across different conse
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/poa-pow-sims.git
+   git clone https://github.com/xaviwho/poa-pow-sims.git
    cd kets-gas-analysis
    ```
 
