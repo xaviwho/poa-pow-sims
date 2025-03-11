@@ -1,0 +1,66 @@
+{
+  "comparisonDate": "2025-03-11T02:17:44.415Z",
+  "poaNetwork": {
+    "totalGasUsed": "778182",
+    "averageGasUsed": "97272",
+    "totalTransactions": 8,
+    "consensusMechanism": "PoA"
+  },
+  "powNetwork": {
+    "totalGasUsed": "778338",
+    "averageGasUsed": "97292",
+    "totalTransactions": 8,
+    "consensusMechanism": "PoW Simulated",
+    "miningTime": "24 seconds"
+  },
+  "operationComparison": {
+    "Register Industry 1": {
+      "poaGasUsed": "133437",
+      "powGasUsed": "133509",
+      "difference": "72",
+      "percentageDifference": "0%"
+    },
+    "Register Industry 2": {
+      "poaGasUsed": "133425",
+      "powGasUsed": "133497",
+      "difference": "72",
+      "percentageDifference": "0%"
+    },
+    "Update GHG for Industry 1": {
+      "poaGasUsed": "159498",
+      "powGasUsed": "159498",
+      "difference": "0",
+      "percentageDifference": "0%"
+    },
+    "Free Allocation to Industry 1": {
+      "poaGasUsed": "54341",
+      "powGasUsed": "54341",
+      "difference": "0",
+      "percentageDifference": "0%"
+    },
+    "Create Auction": {
+      "poaGasUsed": "93152",
+      "powGasUsed": "93152",
+      "difference": "0",
+      "percentageDifference": "0%"
+    },
+    "Place Bid by Industry 2": {
+      "poaGasUsed": "97086",
+      "powGasUsed": "97086",
+      "difference": "0",
+      "percentageDifference": "0%"
+    },
+    "Finalize Auction": {
+      "poaGasUsed": "66820",
+      "powGasUsed": "66820",
+      "difference": "0",
+      "percentageDifference": "0%"
+    },
+    "Trade Credits": {
+      "poaGasUsed": "40423",
+      "powGasUsed": "40435",
+      "difference": "12",
+      "percentageDifference": "0%"
+    }
+  }
+}

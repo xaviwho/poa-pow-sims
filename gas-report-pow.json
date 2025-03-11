@@ -1,0 +1,128 @@
+{
+  "contract": "KETSBlockchain",
+  "contractAddress": "0x3E5E97DD8791ef2aab5BfF75155280192F0b1075",
+  "consensusMechanism": "PoW Simulated",
+  "network": {
+    "name": "ganachePoW",
+    "chainId": "1338"
+  },
+  "miningStatistics": {
+    "averageMiningTime": "3 seconds",
+    "totalMiningTime": "24 seconds",
+    "miningDifficulty": "Simulated"
+  },
+  "transactions": [
+    {
+      "action": "Register Industry 1",
+      "transactionHash": "0xacf5da83367436400f271115002aa941f26e0c46fff34ca8a3de78af2d10a4b0",
+      "gasUsed": "133509",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000801054",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Register Industry 2",
+      "transactionHash": "0x6c3e713b6d2d7855ef9293ef785118885af2969a8f52c731322cc4a1a33af9e2",
+      "gasUsed": "133497",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000800982",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Update GHG for Industry 1",
+      "transactionHash": "0x117adcce1b0d5bb129734a2e99140a349be176f6cbe900988a8a734a23f0db7e",
+      "gasUsed": "159498",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000956988",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Free Allocation to Industry 1",
+      "transactionHash": "0xcf64a03912031f7d33208f3c08ede0a4602234dc627450f28939b73f5764a601",
+      "gasUsed": "54341",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000326046",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Create Auction",
+      "transactionHash": "0xa11d413becf751262280be58afcb341d8113d35b1c5dc29592c8fbbc31707c3d",
+      "gasUsed": "93152",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000558912",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Place Bid by Industry 2",
+      "transactionHash": "0x449faff43c41e663410afb79883ca585bc5f525856d93026370bc6bb652ff755",
+      "gasUsed": "97086",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.000582516",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Finalize Auction",
+      "transactionHash": "0x8e8f784c3fda9a8b26f2fe31f7475e795d8070c5ac33413ee9b769e3d3825e15",
+      "gasUsed": "66820",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.00040092",
+      "consensusMechanism": "PoW Simulated"
+    },
+    {
+      "action": "Trade Credits",
+      "transactionHash": "0x3958cf703b5e7be6b20fdcda64d7847f89443d37af1f40a90c1c88479cf2c430",
+      "gasUsed": "40435",
+      "gasPrice": "6000000000",
+      "gasPriceGwei": "6.0",
+      "gasCost": "0.00024261",
+      "consensusMechanism": "PoW Simulated"
+    }
+  ],
+  "summary": {
+    "totalGasUsed": "778338",
+    "averageGasUsed": "97292",
+    "totalTransactions": 8,
+    "averageGasPrice": "6.0 gwei",
+    "operations": [
+      {
+        "operation": "Register Industry 1",
+        "gasUsed": "133509"
+      },
+      {
+        "operation": "Register Industry 2",
+        "gasUsed": "133497"
+      },
+      {
+        "operation": "Update GHG for Industry 1",
+        "gasUsed": "159498"
+      },
+      {
+        "operation": "Free Allocation to Industry 1",
+        "gasUsed": "54341"
+      },
+      {
+        "operation": "Create Auction",
+        "gasUsed": "93152"
+      },
+      {
+        "operation": "Place Bid by Industry 2",
+        "gasUsed": "97086"
+      },
+      {
+        "operation": "Finalize Auction",
+        "gasUsed": "66820"
+      },
+      {
+        "operation": "Trade Credits",
+        "gasUsed": "40435"
+      }
+    ]
+  }
+}

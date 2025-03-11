@@ -1,0 +1,112 @@
+{
+  "contract": "KETSBlockchain",
+  "contractAddress": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+  "network": {
+    "name": "localPoA",
+    "chainId": "31337"
+  },
+  "transactions": [
+    {
+      "action": "Register Industry 1",
+      "transactionHash": "0x6b74a9e02afd9ac1a31fafb6b08dacea38a67786dba3555b1e6e326182b0d7f1",
+      "gasUsed": "133437",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.00031611001793025"
+    },
+    {
+      "action": "Register Industry 2",
+      "transactionHash": "0x8f553020055a01f2f3acd2f82313e51391e3e9b97a3adea5569dcec876f9897c",
+      "gasUsed": "133425",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.00031608159013125"
+    },
+    {
+      "action": "Update GHG for Industry 1",
+      "transactionHash": "0x929eaa0cf5702b78f9d9e0ae9b97d7a66787ea982b2cc85c602366267a1d3724",
+      "gasUsed": "159498",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.0003778480904085"
+    },
+    {
+      "action": "Free Allocation to Industry 1",
+      "transactionHash": "0x2dbd7a7ec13cf1f7ea48a830f76f6e945776ed9d2297bf4d256e321e562b75c3",
+      "gasUsed": "54341",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.00012873291878825"
+    },
+    {
+      "action": "Create Auction",
+      "transactionHash": "0x48fae8d64a92953135e1ccd0dca13d020107bc0b00ae37a20a2e20258b882b8c",
+      "gasUsed": "93152",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.000220675527704"
+    },
+    {
+      "action": "Place Bid by Industry 2",
+      "transactionHash": "0x8180043221f4b6dd9c1536728f4769cc06e5eae5f34baf185d846cf17db6885d",
+      "gasUsed": "97086",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.0002299951078095"
+    },
+    {
+      "action": "Finalize Auction",
+      "transactionHash": "0x4ebdf133c8998e583e83075d684231cbe4e701cf737c8ad078fd8bdcdd173772",
+      "gasUsed": "66820",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.000158295460765"
+    },
+    {
+      "action": "Trade Credits",
+      "transactionHash": "0xa67ff981ff49c421801a6317c4f785037aa17dda5de50c67777720142680aacd",
+      "gasUsed": "40423",
+      "gasPrice": "2368983250",
+      "gasPriceGwei": "2.36898325",
+      "gasCost": "0.00009576140991475"
+    }
+  ],
+  "summary": {
+    "totalGasUsed": "778182",
+    "averageGasUsed": "97272",
+    "operations": [
+      {
+        "operation": "Register Industry 1",
+        "gasUsed": "133437"
+      },
+      {
+        "operation": "Register Industry 2",
+        "gasUsed": "133425"
+      },
+      {
+        "operation": "Update GHG for Industry 1",
+        "gasUsed": "159498"
+      },
+      {
+        "operation": "Free Allocation to Industry 1",
+        "gasUsed": "54341"
+      },
+      {
+        "operation": "Create Auction",
+        "gasUsed": "93152"
+      },
+      {
+        "operation": "Place Bid by Industry 2",
+        "gasUsed": "97086"
+      },
+      {
+        "operation": "Finalize Auction",
+        "gasUsed": "66820"
+      },
+      {
+        "operation": "Trade Credits",
+        "gasUsed": "40423"
+      }
+    ]
+  }
+}

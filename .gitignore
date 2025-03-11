@@ -1,0 +1,23 @@
+# Create .gitignore file
+cat > .gitignore << 'EOL'
+node_modules
+.env
+.env.pow
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+EOL
