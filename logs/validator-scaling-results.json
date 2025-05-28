@@ -1,0 +1,299 @@
+{
+  "testDate": "2025-05-28T04:46:37.476Z",
+  "consensusMechanisms": {
+    "PoASquare": {
+      "name": "PoASquare",
+      "scalingMetrics": [
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 80,
+          "throughput": 13.223140495867769,
+          "totalDuration": 605,
+          "requestedValidatorCount": 3,
+          "actualValidatorCount": 3,
+          "activeValidators": 3,
+          "standbyValidators": 0,
+          "blockInterval": 10,
+          "consensusProtocol": "PoA Square"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 35.142857142857146,
+          "throughput": 27.972027972027973,
+          "totalDuration": 286,
+          "requestedValidatorCount": 5,
+          "actualValidatorCount": 5,
+          "activeValidators": 4,
+          "standbyValidators": 1,
+          "blockInterval": 10,
+          "consensusProtocol": "PoA Square"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002023,
+          "averageGasPerTx": 125252.875,
+          "averageLatency": 58.42857142857143,
+          "throughput": 17.204301075268816,
+          "totalDuration": 465,
+          "requestedValidatorCount": 7,
+          "actualValidatorCount": 7,
+          "activeValidators": 6,
+          "standbyValidators": 1,
+          "blockInterval": 10,
+          "consensusProtocol": "PoA Square"
+        }
+      ]
+    },
+    "PBFT": {
+      "name": "PBFT",
+      "scalingMetrics": [
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 44.714285714285715,
+          "throughput": 22.03856749311295,
+          "totalDuration": 363,
+          "requestedValidatorCount": 3,
+          "actualValidatorCount": 3,
+          "maxFaultyNodes": 0,
+          "minHealthyNodes": 3,
+          "blockInterval": 2,
+          "consensusProtocol": "PBFT"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 33.714285714285715,
+          "throughput": 29.304029304029303,
+          "totalDuration": 273,
+          "requestedValidatorCount": 5,
+          "actualValidatorCount": 5,
+          "maxFaultyNodes": 1,
+          "minHealthyNodes": 4,
+          "blockInterval": 2,
+          "consensusProtocol": "PBFT"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002023,
+          "averageGasPerTx": 125252.875,
+          "averageLatency": 29.285714285714285,
+          "throughput": 32.25806451612903,
+          "totalDuration": 248,
+          "requestedValidatorCount": 7,
+          "actualValidatorCount": 7,
+          "maxFaultyNodes": 2,
+          "minHealthyNodes": 5,
+          "blockInterval": 2,
+          "consensusProtocol": "PBFT"
+        }
+      ]
+    },
+    "DPoS": {
+      "name": "DPoS",
+      "scalingMetrics": [
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 26.571428571428573,
+          "throughput": 36.36363636363637,
+          "totalDuration": 220,
+          "requestedValidatorCount": 3,
+          "actualValidatorCount": 3,
+          "blockProducers": 3,
+          "blockInterval": 3,
+          "consensusProtocol": "DPoS"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 26.142857142857142,
+          "throughput": 37.55868544600939,
+          "totalDuration": 213,
+          "requestedValidatorCount": 5,
+          "actualValidatorCount": 5,
+          "blockProducers": 5,
+          "blockInterval": 3,
+          "consensusProtocol": "DPoS"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002023,
+          "averageGasPerTx": 125252.875,
+          "averageLatency": 34.857142857142854,
+          "throughput": 27.874564459930316,
+          "totalDuration": 287,
+          "requestedValidatorCount": 7,
+          "actualValidatorCount": 7,
+          "blockProducers": 7,
+          "blockInterval": 3,
+          "consensusProtocol": "DPoS"
+        }
+      ]
+    },
+    "PoA": {
+      "name": "PoA",
+      "scalingMetrics": [
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 28.571428571428573,
+          "throughput": 35.714285714285715,
+          "totalDuration": 224,
+          "requestedValidatorCount": 3,
+          "actualValidatorCount": 3,
+          "blockInterval": 5,
+          "consensusProtocol": "PoA"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 27.142857142857142,
+          "throughput": 35.874439461883405,
+          "totalDuration": 223,
+          "requestedValidatorCount": 5,
+          "actualValidatorCount": 5,
+          "blockInterval": 5,
+          "consensusProtocol": "PoA"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002023,
+          "averageGasPerTx": 125252.875,
+          "averageLatency": 31,
+          "throughput": 32,
+          "totalDuration": 250,
+          "requestedValidatorCount": 7,
+          "actualValidatorCount": 7,
+          "blockInterval": 5,
+          "consensusProtocol": "PoA"
+        }
+      ]
+    },
+    "PoW": {
+      "name": "PoW",
+      "scalingMetrics": [
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 25.285714285714285,
+          "throughput": 38.095238095238095,
+          "totalDuration": 210,
+          "requestedValidatorCount": 3,
+          "actualValidatorCount": 3,
+          "approximateDifficulty": 300,
+          "blockInterval": 15,
+          "consensusProtocol": "PoW"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002035,
+          "averageGasPerTx": 125254.375,
+          "averageLatency": 28.142857142857142,
+          "throughput": 37.735849056603776,
+          "totalDuration": 212,
+          "requestedValidatorCount": 5,
+          "actualValidatorCount": 5,
+          "approximateDifficulty": 500,
+          "blockInterval": 15,
+          "consensusProtocol": "PoW"
+        },
+        {
+          "transactionCount": 8,
+          "totalGasUsed": 1002023,
+          "averageGasPerTx": 125252.875,
+          "averageLatency": 22.857142857142858,
+          "throughput": 44.19889502762431,
+          "totalDuration": 181,
+          "requestedValidatorCount": 7,
+          "actualValidatorCount": 7,
+          "approximateDifficulty": 700,
+          "blockInterval": 15,
+          "consensusProtocol": "PoW"
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "throughput": {
+      "3": {
+        "PoASquare": 13.223140495867769,
+        "PBFT": 22.03856749311295,
+        "DPoS": 36.36363636363637,
+        "PoA": 35.714285714285715,
+        "PoW": 38.095238095238095
+      },
+      "5": {
+        "PoASquare": 27.972027972027973,
+        "PBFT": 29.304029304029303,
+        "DPoS": 37.55868544600939,
+        "PoA": 35.874439461883405,
+        "PoW": 37.735849056603776
+      },
+      "7": {
+        "PoASquare": 17.204301075268816,
+        "PBFT": 32.25806451612903,
+        "DPoS": 27.874564459930316,
+        "PoA": 32,
+        "PoW": 44.19889502762431
+      }
+    },
+    "latency": {
+      "3": {
+        "PoASquare": 80,
+        "PBFT": 44.714285714285715,
+        "DPoS": 26.571428571428573,
+        "PoA": 28.571428571428573,
+        "PoW": 25.285714285714285
+      },
+      "5": {
+        "PoASquare": 35.142857142857146,
+        "PBFT": 33.714285714285715,
+        "DPoS": 26.142857142857142,
+        "PoA": 27.142857142857142,
+        "PoW": 28.142857142857142
+      },
+      "7": {
+        "PoASquare": 58.42857142857143,
+        "PBFT": 29.285714285714285,
+        "DPoS": 34.857142857142854,
+        "PoA": 31,
+        "PoW": 22.857142857142858
+      }
+    },
+    "gasUsed": {
+      "3": {
+        "PoASquare": 125254.375,
+        "PBFT": 125254.375,
+        "DPoS": 125254.375,
+        "PoA": 125254.375,
+        "PoW": 125254.375
+      },
+      "5": {
+        "PoASquare": 125254.375,
+        "PBFT": 125254.375,
+        "DPoS": 125254.375,
+        "PoA": 125254.375,
+        "PoW": 125254.375
+      },
+      "7": {
+        "PoASquare": 125252.875,
+        "PBFT": 125252.875,
+        "DPoS": 125252.875,
+        "PoA": 125252.875,
+        "PoW": 125252.875
+      }
+    }
+  }
+}

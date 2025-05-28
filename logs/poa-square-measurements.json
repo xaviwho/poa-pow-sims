@@ -1,0 +1,561 @@
+{
+  "consensusMechanism": "PoA-Square",
+  "transactions": [
+    {
+      "blockNumber": 184905,
+      "gasUsed": "119237",
+      "type": "registerIndustry",
+      "timestamp": 1748403527449
+    },
+    {
+      "blockNumber": 184906,
+      "gasUsed": "104225",
+      "type": "registerIndustry",
+      "timestamp": 1748403528238
+    },
+    {
+      "blockNumber": 184907,
+      "gasUsed": "104237",
+      "type": "registerIndustry",
+      "timestamp": 1748403528985
+    },
+    {
+      "blockNumber": 184908,
+      "gasUsed": "146358",
+      "type": "updateGHGEmissions",
+      "timestamp": 1748403530248
+    },
+    {
+      "blockNumber": 184909,
+      "gasUsed": "56358",
+      "type": "updateGHGEmissions",
+      "timestamp": 1748403531020
+    },
+    {
+      "blockNumber": 184910,
+      "gasUsed": "56358",
+      "type": "updateGHGEmissions",
+      "timestamp": 1748403531817
+    },
+    {
+      "blockNumber": 184912,
+      "gasUsed": "86440",
+      "type": "createAuction",
+      "timestamp": 1748403534227
+    },
+    {
+      "blockNumber": 184914,
+      "gasUsed": "19406",
+      "type": "finalizeAuction",
+      "timestamp": 1748403535645
+    }
+  ],
+  "blocks": [
+    {
+      "number": 1,
+      "timestamp": 1748403527450,
+      "proposer": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+      "proposerReliability": 1,
+      "validations": 3,
+      "validatorFailures": 0,
+      "reliabilityScore": 0.75,
+      "status": "finalized",
+      "finalityTime": 4050
+    },
+    {
+      "number": 2,
+      "timestamp": 1748403528238,
+      "proposer": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+      "proposerReliability": 1,
+      "validations": 2,
+      "validatorFailures": 1,
+      "reliabilityScore": 0.5,
+      "status": "failed",
+      "failurePhase": "validation"
+    },
+    {
+      "number": 3,
+      "timestamp": 1748403528985,
+      "proposer": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+      "proposerReliability": 0.95,
+      "status": "failed",
+      "failurePhase": "proposal",
+      "finalityTime": null
+    },
+    {
+      "number": 4,
+      "timestamp": 1748403530248,
+      "proposer": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+      "proposerReliability": 1,
+      "validations": 2,
+      "validatorFailures": 1,
+      "reliabilityScore": 0.4875,
+      "status": "failed",
+      "failurePhase": "validation"
+    },
+    {
+      "number": 5,
+      "timestamp": 1748403531020,
+      "proposer": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+      "proposerReliability": 1,
+      "validations": 3,
+      "validatorFailures": 0,
+      "reliabilityScore": 0.74375,
+      "status": "failed",
+      "failurePhase": "validation"
+    },
+    {
+      "number": 6,
+      "timestamp": 1748403531819,
+      "proposer": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+      "proposerReliability": 1,
+      "validations": 2,
+      "validatorFailures": 1,
+      "reliabilityScore": 0.5,
+      "status": "failed",
+      "failurePhase": "validation"
+    },
+    {
+      "number": 7,
+      "timestamp": 1748403534227,
+      "proposer": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+      "proposerReliability": 1,
+      "validations": 3,
+      "validatorFailures": 0,
+      "reliabilityScore": 0.74375,
+      "status": "failed",
+      "failurePhase": "validation"
+    },
+    {
+      "number": 8,
+      "timestamp": 1748403535645,
+      "proposer": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+      "proposerReliability": 1,
+      "validations": 3,
+      "validatorFailures": 0,
+      "reliabilityScore": 0.75,
+      "status": "finalized",
+      "finalityTime": 4050
+    }
+  ],
+  "finalityTimes": [
+    {
+      "blockNumber": 1,
+      "finalityTime": 4050,
+      "reliabilityScore": 0.75,
+      "timestamp": 1748403527452
+    },
+    {
+      "blockNumber": 8,
+      "finalityTime": 4050,
+      "reliabilityScore": 0.75,
+      "timestamp": 1748403535646
+    }
+  ],
+  "gasUsage": [
+    {
+      "txType": "registerIndustry",
+      "gasUsed": "119237",
+      "timestamp": 1748403527450
+    },
+    {
+      "txType": "registerIndustry",
+      "gasUsed": "104225",
+      "timestamp": 1748403528238
+    },
+    {
+      "txType": "registerIndustry",
+      "gasUsed": "104237",
+      "timestamp": 1748403528985
+    },
+    {
+      "txType": "updateGHGEmissions",
+      "gasUsed": "146358",
+      "timestamp": 1748403530248
+    },
+    {
+      "txType": "updateGHGEmissions",
+      "gasUsed": "56358",
+      "timestamp": 1748403531020
+    },
+    {
+      "txType": "updateGHGEmissions",
+      "gasUsed": "56358",
+      "timestamp": 1748403531817
+    },
+    {
+      "txType": "createAuction",
+      "gasUsed": "86440",
+      "timestamp": 1748403534227
+    },
+    {
+      "txType": "finalizeAuction",
+      "gasUsed": "19406",
+      "timestamp": 1748403535645
+    }
+  ],
+  "resourceUsage": [
+    {
+      "blockNumber": 1,
+      "timestamp": 1748403527452,
+      "reliability": 0.75,
+      "reliabilityFactor": 1.3333333333333333,
+      "cpu": 34.05331169424294,
+      "memory": 284.31042191329027,
+      "network": 1023.4466871462477,
+      "messageComplexity": "O(n²)",
+      "reliabilityBasedComplexity": "O(n² * 1.33)"
+    },
+    {
+      "blockNumber": 8,
+      "timestamp": 1748403535646,
+      "reliability": 0.75,
+      "reliabilityFactor": 1.3333333333333333,
+      "cpu": 34.63412651352909,
+      "memory": 293.1317747973349,
+      "network": 1030.9486509597862,
+      "messageComplexity": "O(n²)",
+      "reliabilityBasedComplexity": "O(n² * 1.33)"
+    }
+  ],
+  "networkMessages": [
+    {
+      "blockNumber": 1,
+      "proposalMessages": 4,
+      "reliabilityMessages": 16,
+      "validationMessages": 12,
+      "totalMessages": 32,
+      "messageSize": 1024,
+      "totalBandwidth": 32768
+    },
+    {
+      "blockNumber": 8,
+      "proposalMessages": 4,
+      "reliabilityMessages": 16,
+      "validationMessages": 12,
+      "totalMessages": 32,
+      "messageSize": 1024,
+      "totalBandwidth": 32768
+    }
+  ],
+  "validators": [],
+  "validatorReplacements": [],
+  "reliabilityScores": [
+    {
+      "timestamp": 1748403526633,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 0,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 0,
+          "failures": 0
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 0,
+          "failures": 0
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 0,
+          "failures": 0
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403527452,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 1,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 0,
+          "failures": 0
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 1,
+          "failures": 0
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 1,
+          "failures": 0
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403528239,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 2,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 0.95,
+          "blocksProposed": 1,
+          "blocksValidated": 0,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 1,
+          "failures": 0
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 2,
+          "failures": 0
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403528986,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 2,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 0.95,
+          "blocksProposed": 1,
+          "blocksValidated": 0,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 1,
+          "failures": 0
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 0.95,
+          "blocksProposed": 0,
+          "blocksValidated": 2,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403530249,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 2,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 0.975,
+          "blocksProposed": 1,
+          "blocksValidated": 1,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 0.95,
+          "blocksProposed": 1,
+          "blocksValidated": 1,
+          "failures": 1
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 0.975,
+          "blocksProposed": 0,
+          "blocksValidated": 3,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403531021,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 3,
+          "failures": 0
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 1,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 0.975,
+          "blocksProposed": 1,
+          "blocksValidated": 2,
+          "failures": 1
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 4,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403531822,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 0.95,
+          "blocksProposed": 1,
+          "blocksValidated": 3,
+          "failures": 1
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 2,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 2,
+          "failures": 1
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 0,
+          "blocksValidated": 5,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403534228,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 0.975,
+          "blocksProposed": 1,
+          "blocksValidated": 4,
+          "failures": 1
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 3,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 3,
+          "failures": 1
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 5,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    },
+    {
+      "timestamp": 1748403535646,
+      "activeValidators": [
+        {
+          "address": "0xAA3DFc054293Dd3731892A1Ba0366D6e6FB1Ee51",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 4,
+          "failures": 1
+        },
+        {
+          "address": "0x08Ee1819412dd761119B1e0B7C91122125FdB04a",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 4,
+          "failures": 1
+        },
+        {
+          "address": "0x7Bf647aF823446D08452435092F4A72f21dC4270",
+          "reliability": 1,
+          "blocksProposed": 2,
+          "blocksValidated": 4,
+          "failures": 1
+        },
+        {
+          "address": "0x1A1CF07aB9a8bD2741feff6b86861a60D2981Fed",
+          "reliability": 1,
+          "blocksProposed": 1,
+          "blocksValidated": 6,
+          "failures": 1
+        }
+      ],
+      "standbyValidators": []
+    }
+  ],
+  "startTime": 1748403523292,
+  "endTime": 1748403535646,
+  "contractAddress": "0x1D6929A68C88e79fB8e74C1a3Fd8318F1BE0b2DA",
+  "networkInfo": {
+    "consensusMechanism": "PoA-Square",
+    "activeValidators": 4,
+    "standbyValidators": 0,
+    "reliabilityThreshold": 0.75,
+    "failureProbability": 0.1
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "totalTransactions": 12,
+  "totalGas": 1207370,
+  "averageGas": 100614,
+  "totalDuration": 34970,
+  "averageDuration": 2914,
+  "blockTime": 3000,
+  "delegateCount": 21,
+  "transactions": [
+    {
+      "action": "Register Industry 1",
+      "delegate": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+      "gasUsed": "133437",
+      "blockNumber": 2,
+      "duration": 3006
+    },
+    {
+      "action": "Register Industry 2",
+      "delegate": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "gasUsed": "133425",
+      "blockNumber": 3,
+      "duration": 3005
+    },
+    {
+      "action": "Register Industry 3",
+      "delegate": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "gasUsed": "133437",
+      "blockNumber": 4,
+      "duration": 3005
+    },
+    {
+      "action": "Update Industry 1 Emissions",
+      "delegate": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "gasUsed": "159894",
+      "blockNumber": 5,
+      "duration": 1921
+    },
+    {
+      "action": "Update Industry 2 Emissions",
+      "delegate": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "gasUsed": "159906",
+      "blockNumber": 6,
+      "duration": 3008
+    },
+    {
+      "action": "Update Industry 3 Emissions",
+      "delegate": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+      "gasUsed": "159894",
+      "blockNumber": 7,
+      "duration": 3001
+    },
+    {
+      "action": "Allocate Free Credits to Industry 1",
+      "delegate": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+      "gasUsed": "54413",
+      "blockNumber": 8,
+      "duration": 3001
+    },
+    {
+      "action": "Allocate Free Credits to Industry 2",
+      "delegate": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+      "gasUsed": "54814",
+      "blockNumber": 9,
+      "duration": 3002
+    },
+    {
+      "action": "Allocate Free Credits to Industry 3",
+      "delegate": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+      "gasUsed": "54413",
+      "blockNumber": 10,
+      "duration": 3005
+    },
+    {
+      "action": "Create Auction",
+      "delegate": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+      "gasUsed": "93224",
+      "blockNumber": 11,
+      "duration": 3004
+    },
+    {
+      "action": "Finalize Auction",
+      "delegate": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+      "gasUsed": "30006",
+      "blockNumber": 12,
+      "duration": 3006
+    },
+    {
+      "action": "Trade Credits",
+      "delegate": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+      "gasUsed": "40507",
+      "blockNumber": 13,
+      "duration": 3006
+    }
+  ]
+}

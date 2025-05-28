@@ -13,7 +13,7 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "dotenv": "^16.4.7",
     "ganache": "^7.9.2",
-    "hardhat": "^2.22.19",
+    "hardhat": "^2.24.1",
     "hardhat-gas-reporter": "^1.0.10"
   }
 }

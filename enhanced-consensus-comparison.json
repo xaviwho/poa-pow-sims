@@ -1,0 +1,116 @@
+{
+  "comparisonDate": "2025-05-28T03:56:48.659Z",
+  "availableConsensusMechanisms": [
+    "PoA",
+    "PoW",
+    "DPoS",
+    "PoASquare",
+    "PBFT"
+  ],
+  "transactionMetrics": {
+    "totalTransactions": {
+      "PoA": 8,
+      "PoW": 8,
+      "DPoS": 49,
+      "PoASquare": 8,
+      "PBFT": 8
+    },
+    "totalGasUsed": {
+      "PoA": 778182,
+      "PoW": 778338,
+      "DPoS": 5566654,
+      "PoASquare": 692619,
+      "PBFT": 1002119
+    },
+    "averageGasPerTransaction": {
+      "PoA": 97272.75,
+      "PoW": 97292.25,
+      "DPoS": 113605.1836734694,
+      "PoASquare": 86577.375,
+      "PBFT": 125264.875
+    }
+  },
+  "blockProductionMetrics": {
+    "averageBlockTime": {
+      "PoA": 15000,
+      "PoW": 15000,
+      "DPoS": 2918.0408163265306,
+      "PoASquare": 8194,
+      "PBFT": 876
+    },
+    "blockTimeStdDeviation": {
+      "PoA": 0,
+      "PoW": 0,
+      "DPoS": 291.92261758993277,
+      "PoASquare": 0,
+      "PBFT": 29.144957907476407
+    },
+    "blockTimeConsistency": {
+      "PoA": 1,
+      "PoW": 1,
+      "DPoS": 0.899959378238777,
+      "PoASquare": 1,
+      "PBFT": 0.9667295001056205
+    }
+  },
+  "finalityMetrics": {
+    "timeToFinality": {
+      "PoA": 15000,
+      "PoW": 90000,
+      "DPoS": 6020,
+      "PoASquare": 8194,
+      "PBFT": 865
+    },
+    "finalizationMechanism": {
+      "PoA": "Authority-based - Single confirmation",
+      "PoW": "Probabilistic - 6 confirmations",
+      "DPoS": "Delegated voting - Short confirmation window",
+      "PoASquare": "Reliability-weighted validation",
+      "PBFT": "Three-phase commit (pre-prepare, prepare, commit)"
+    },
+    "securityModel": {
+      "PoA": "Identity-based - 51% of authorities",
+      "PoW": "Work-based - 51% attack resistance",
+      "DPoS": "Stake-based - Delegate reputation",
+      "PoASquare": "Identity + Reliability metrics",
+      "PBFT": "Byzantine fault tolerance (3f+1 validators)"
+    }
+  },
+  "performanceMetrics": {
+    "transactionsPerSecond": {
+      "PoA": 0.06666666666666667,
+      "PoW": 0.06666666666666667,
+      "DPoS": 0.3426956862306272,
+      "PoASquare": 0.6475635421725757,
+      "PBFT": 0.7992806474173244
+    },
+    "totalExecutionTime": {
+      "PoA": 120000,
+      "PoW": 120000,
+      "DPoS": 142984,
+      "PoASquare": 12354,
+      "PBFT": 10009
+    }
+  },
+  "reliabilityMetrics": {
+    "PoASquare": {
+      "validatorFailures": 0,
+      "successfulConsensusRounds": 0,
+      "failedConsensusRounds": 0,
+      "averageReliabilityScore": 1
+    },
+    "PBFT": {
+      "validatorFailures": 0,
+      "successfulConsensusRounds": 0,
+      "failedConsensusRounds": 0,
+      "averageReliabilityScore": 1
+    }
+  },
+  "academicInsights": {
+    "gasCostAnalysis": "Gas costs are primarily determined by EVM operations, not consensus mechanisms. Similar gas costs across all consensus mechanisms confirm this principle.",
+    "finalizationComparison": "DPoS, PBFT, and PoA offer faster finality than PoW, making them more suitable for applications requiring quick transaction confirmation.",
+    "throughputAnalysis": "DPoS shows the highest theoretical throughput due to its predetermined block producer schedule, followed by PoA and PBFT, with PoW having the lowest throughput due to mining complexity.",
+    "consistencyEvaluation": "Block time consistency is highest in DPoS due to scheduled block production, followed by PBFT and PoA. PoW shows the highest variability due to mining difficulty adjustments.",
+    "reliabilityAnalysis": "PoA Square's reliability-weighted validation provides improved Byzantine fault tolerance compared to traditional PoA"
+  }
+}
