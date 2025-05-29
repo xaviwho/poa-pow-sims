@@ -25,16 +25,16 @@ const PRE_PREPARE_PHASE_TIME = 200; // ms
 const PREPARE_PHASE_TIME = 300; // ms
 const COMMIT_PHASE_TIME = 300; // ms
 const VIEW_CHANGE_TIMEOUT = 2000; // ms
-const VIEW_CHANGE_PROBABILITY = 0.1; // 10% chance of view change
+const VIEW_CHANGE_PROBABILITY = 0.5; // 50% chance of view change
 
 // Byzantine behavior constants
-const BYZANTINE_VALIDATOR_COUNT = Math.floor(NUM_VALIDATORS / 3) - 1; // Max tolerable is (n-1)/3
+const BYZANTINE_VALIDATOR_COUNT = 1; // Force at least one Byzantine validator
 const BYZANTINE_FAILURE_TYPES = [
   'crash', // Validator stops responding
   'malicious', // Validator sends conflicting messages
   'delayed' // Validator responds with excessive delay
 ];
-const BYZANTINE_FAILURE_PROBABILITY = 0.05; // 5% chance of Byzantine behavior per validator per phase
+const BYZANTINE_FAILURE_PROBABILITY = 0.3; // 30% chance of Byzantine behavior per validator per phase
 
 // Log file setup
 const LOG_FILE = path.join(__dirname, "../logs/pbft-measurements.json");

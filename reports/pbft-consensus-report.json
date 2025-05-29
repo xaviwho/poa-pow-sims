@@ -1,0 +1,80 @@
+{
+  "consensusMechanism": "PBFT",
+  "configuration": {
+    "validators": 4,
+    "byzantineValidators": 1,
+    "byzantineTypes": [
+      "crash",
+      "malicious",
+      "delayed"
+    ],
+    "failureProbability": 0.3,
+    "maxTolerableFailures": 1,
+    "phaseTiming": {
+      "prePrepare": 200,
+      "prepare": 300,
+      "commit": 300,
+      "viewChange": 2000
+    }
+  },
+  "summary": {
+    "totalTransactions": 8,
+    "successfulConsensusCount": 8,
+    "consensusSuccessRate": 100,
+    "byzantineEventCount": 4,
+    "viewChangeCount": 0
+  },
+  "performance": {
+    "finalityTimes": {
+      "average": 804.75,
+      "min": 803,
+      "max": 807,
+      "guaranteedFinality": "Immediate once committed (if 2f+1 honest nodes)"
+    },
+    "phaseBreakdown": {
+      "prePrepare": 0,
+      "prepare": 301.625,
+      "commit": 302.25,
+      "viewChange": 0
+    },
+    "throughput": {
+      "transactionsPerSecond": 0.8870162989244927,
+      "potentialTps": 1.2426219322771046
+    }
+  },
+  "resourceUsage": {
+    "averageCpu": 33.926804278594346,
+    "averageMemory": 267.8585576206867,
+    "averageNetwork": 848.546878410617,
+    "byzantineImpact": "Byzantine failures increased resource usage by approximately 20% per faulty node"
+  },
+  "networkOverhead": {
+    "messagesPerConsensus": 10.666666666666666,
+    "bytesPerConsensus": 6144,
+    "messageComplexity": "O(n²)",
+    "scaleFactors": {
+      "byValidatorCount": "Quadratic growth - resource requirements grow with square of validator count",
+      "byTransactionVolume": "Linear growth - each transaction requires one consensus round"
+    }
+  },
+  "faultTolerance": {
+    "maximumByzantineNodes": 1,
+    "actualByzantineNodes": 1,
+    "viewChanges": 0,
+    "systemStability": "System remained stable with primary validators"
+  },
+  "comparisonMetrics": {
+    "blockTime": 1000,
+    "finalityTime": 804.75,
+    "messageComplexity": "O(n²)",
+    "resourceUsage": {
+      "cpu": 33.926804278594346,
+      "memory": 267.8585576206867,
+      "network": 848.546878410617
+    },
+    "bytesSent": 6144,
+    "faultTolerance": "1/4 Byzantine failures",
+    "centralizedElements": "Primary selection per view",
+    "scalabilityLimitations": "Quadratic message complexity limits validator set size"
+  }
+}

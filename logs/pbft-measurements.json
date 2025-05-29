@@ -7,7 +7,7 @@
       "gasUsed": "133437",
       "effectiveGasPrice": "0",
       "type": "registerIndustry",
-      "timestamp": 1748400672411,
+      "timestamp": 1748504748315,
       "consensusMechanism": "PBFT"
     },
     {
@@ -16,7 +16,7 @@
       "gasUsed": "133425",
       "effectiveGasPrice": "0",
       "type": "registerIndustry",
-      "timestamp": 1748400673277,
+      "timestamp": 1748504749134,
       "consensusMechanism": "PBFT"
     },
     {
@@ -25,7 +25,7 @@
       "gasUsed": "133437",
       "effectiveGasPrice": "0",
       "type": "registerIndustry",
-      "timestamp": 1748400674136,
+      "timestamp": 1748504749958,
       "consensusMechanism": "PBFT"
     },
     {
@@ -34,7 +34,7 @@
       "gasUsed": "159558",
       "effectiveGasPrice": "0",
       "type": "updateGHGEmissions",
-      "timestamp": 1748400675003,
+      "timestamp": 1748504750776,
       "consensusMechanism": "PBFT"
     },
     {
@@ -43,7 +43,7 @@
       "gasUsed": "159558",
       "effectiveGasPrice": "0",
       "type": "updateGHGEmissions",
-      "timestamp": 1748400675872,
+      "timestamp": 1748504751588,
       "consensusMechanism": "PBFT"
     },
     {
@@ -52,7 +52,7 @@
       "gasUsed": "159558",
       "effectiveGasPrice": "0",
       "type": "updateGHGEmissions",
-      "timestamp": 1748400676735,
+      "timestamp": 1748504752404,
       "consensusMechanism": "PBFT"
     },
     {
@@ -61,7 +61,7 @@
       "gasUsed": "93140",
       "effectiveGasPrice": "0",
       "type": "createAuction",
-      "timestamp": 1748400677597,
+      "timestamp": 1748504753221,
       "consensusMechanism": "PBFT"
     },
     {
@@ -70,7 +70,7 @@
       "gasUsed": "30006",
       "effectiveGasPrice": "0",
       "type": "finalizeAuction",
-      "timestamp": 1748400678543,
+      "timestamp": 1748504754129,
       "consensusMechanism": "PBFT"
     }
   ],
@@ -79,50 +79,50 @@
     {
       "txHash": "0x926fc9b15d12727b76ef1c84f63565ea19e06339041716143087d4b2242c1b4d",
       "transactionType": "registerIndustry",
-      "finalityTime": 855,
-      "timestamp": 1748400673272
+      "finalityTime": 805,
+      "timestamp": 1748504749126
     },
     {
       "txHash": "0x3049678b24f90c8ae5c762eaf2a5875e45521fcf106baa5e6b14bb5490dc3ac2",
       "transactionType": "registerIndustry",
-      "finalityTime": 850,
-      "timestamp": 1748400674129
+      "finalityTime": 805,
+      "timestamp": 1748504749944
     },
     {
       "txHash": "0xed82694cbb4fd75df1ed4abfc6f5be47c179a5d70395eb58f188c8fcc51e104f",
       "transactionType": "registerIndustry",
-      "finalityTime": 852,
-      "timestamp": 1748400674990
+      "finalityTime": 804,
+      "timestamp": 1748504750766
     },
     {
       "txHash": "0x73a2acec31829fa4e0a2c2e289ef1d9c17094022bd7d5c6e74767770d84a6719",
       "transactionType": "updateGHGEmissions",
-      "finalityTime": 852,
-      "timestamp": 1748400675859
+      "finalityTime": 804,
+      "timestamp": 1748504751582
     },
     {
       "txHash": "0x43c8057999baaf1b261a65ad87a6e404ada15e9ceef4aee4144ff2dbed433744",
       "transactionType": "updateGHGEmissions",
-      "finalityTime": 852,
-      "timestamp": 1748400676728
+      "finalityTime": 807,
+      "timestamp": 1748504752395
     },
     {
       "txHash": "0x6d39d8632b520239324d12cd4b91bf5f75440f30dc8976af596f0cbb8837a88b",
       "transactionType": "updateGHGEmissions",
-      "finalityTime": 834,
-      "timestamp": 1748400677573
+      "finalityTime": 806,
+      "timestamp": 1748504753213
     },
     {
       "txHash": "0x9deeab7658643f0bedabff584d9d6ac25221629da8367927bbf3d46e7cce1d1e",
       "transactionType": "createAuction",
-      "finalityTime": 847,
-      "timestamp": 1748400678446
+      "finalityTime": 803,
+      "timestamp": 1748504754027
     },
     {
       "txHash": "0x1d0decfed8503274b3e2e1c95d602d172cf453fa8f3f789d4bfe6360d074ec1e",
       "transactionType": "finalizeAuction",
-      "finalityTime": 844,
-      "timestamp": 1748400679390
+      "finalityTime": 804,
+      "timestamp": 1748504754938
     }
   ],
   "gasUsage": [
@@ -130,160 +130,160 @@
       "txType": "registerIndustry",
       "gasUsed": "133437",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400672412,
+      "timestamp": 1748504748315,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "registerIndustry",
       "gasUsed": "133425",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400673277,
+      "timestamp": 1748504749134,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "registerIndustry",
       "gasUsed": "133437",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400674136,
+      "timestamp": 1748504749958,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "updateGHGEmissions",
       "gasUsed": "159558",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400675003,
+      "timestamp": 1748504750776,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "updateGHGEmissions",
       "gasUsed": "159558",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400675872,
+      "timestamp": 1748504751588,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "updateGHGEmissions",
       "gasUsed": "159558",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400676735,
+      "timestamp": 1748504752404,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "createAuction",
       "gasUsed": "93140",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400677597,
+      "timestamp": 1748504753221,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     },
     {
       "txType": "finalizeAuction",
       "gasUsed": "30006",
       "consensusMechanism": "PBFT",
-      "timestamp": 1748400678543,
+      "timestamp": 1748504754129,
       "notes": "PBFT consensus gas usage (same as other mechanisms, gas is EVM-determined)"
     }
   ],
   "resourceUsage": [
     {
       "blockHeight": 2,
-      "timestamp": 1748400672412,
+      "timestamp": 1748504748315,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 37.70505072345004,
-      "memory": 260.8107351721712,
-      "network": 802.1781517623018,
+      "cpu": 37.415804673400324,
+      "memory": 258.00939531584584,
+      "network": 815.8284761487894,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 3,
-      "timestamp": 1748400673277,
+      "timestamp": 1748504749134,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 38.64572348319837,
-      "memory": 252.53300238431066,
-      "network": 812.1662240440552,
+      "cpu": 32.84497551587965,
+      "memory": 268.54063900874576,
+      "network": 884.5433837989285,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 4,
-      "timestamp": 1748400674136,
+      "timestamp": 1748504749958,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 31.27745290308235,
-      "memory": 269.0021441554051,
-      "network": 813.772995855697,
+      "cpu": 31.16528144210764,
+      "memory": 255.04358666092514,
+      "network": 898.7341855709695,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 5,
-      "timestamp": 1748400675003,
+      "timestamp": 1748504750776,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 38.61182613797855,
-      "memory": 271.03586184852844,
-      "network": 893.7193095735274,
+      "cpu": 31.22828203296098,
+      "memory": 275.7851416647512,
+      "network": 854.8748053151103,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 6,
-      "timestamp": 1748400675872,
+      "timestamp": 1748504751588,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 32.896337613041716,
-      "memory": 273.1897474849408,
-      "network": 889.5158221448411,
+      "cpu": 39.2985214369278,
+      "memory": 266.05127139827573,
+      "network": 859.108065890086,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 7,
-      "timestamp": 1748400676735,
+      "timestamp": 1748504752404,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 32.09774981005583,
-      "memory": 270.07753783567574,
-      "network": 803.2108377141091,
+      "cpu": 33.060996725113846,
+      "memory": 272.7382829353406,
+      "network": 822.4547589750161,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 8,
-      "timestamp": 1748400677597,
+      "timestamp": 1748504753221,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 31.96731515783336,
-      "memory": 265.12485766021473,
-      "network": 859.1297762503342,
+      "cpu": 30.36325808084446,
+      "memory": 277.7661721554359,
+      "network": 817.4755905289618,
       "messageComplexity": "O(n²)"
     },
     {
       "blockHeight": 12,
-      "timestamp": 1748400678544,
+      "timestamp": 1748504754129,
       "byzantineCount": 0,
       "byzantineFactor": 1,
       "phase": "transaction",
       "phaseModifier": 1,
-      "cpu": 35.95859791076391,
-      "memory": 275.2701601566801,
-      "network": 811.2218657311578,
+      "cpu": 36.03731432152005,
+      "memory": 268.9339718261737,
+      "network": 835.3557610570731,
       "messageComplexity": "O(n²)"
     }
   ],
   "networkMessages": [
     {
-      "timestamp": 1748400672415,
+      "timestamp": 1748504748316,
       "blockHeight": 1,
       "view": 0,
       "phase": "pre-prepare",
@@ -292,7 +292,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400672951,
+      "timestamp": 1748504748822,
       "blockHeight": 1,
       "view": 0,
       "phase": "prepare",
@@ -301,7 +301,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400673271,
+      "timestamp": 1748504749125,
       "blockHeight": 1,
       "view": 0,
       "phase": "commit",
@@ -310,7 +310,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400673277,
+      "timestamp": 1748504749135,
       "blockHeight": 2,
       "view": 0,
       "phase": "pre-prepare",
@@ -319,7 +319,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400673809,
+      "timestamp": 1748504749638,
       "blockHeight": 2,
       "view": 0,
       "phase": "prepare",
@@ -328,7 +328,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400674129,
+      "timestamp": 1748504749942,
       "blockHeight": 2,
       "view": 0,
       "phase": "commit",
@@ -337,7 +337,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400674136,
+      "timestamp": 1748504749959,
       "blockHeight": 3,
       "view": 0,
       "phase": "pre-prepare",
@@ -346,7 +346,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400674670,
+      "timestamp": 1748504750463,
       "blockHeight": 3,
       "view": 0,
       "phase": "prepare",
@@ -355,7 +355,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400674989,
+      "timestamp": 1748504750765,
       "blockHeight": 3,
       "view": 0,
       "phase": "commit",
@@ -364,7 +364,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400675004,
+      "timestamp": 1748504750776,
       "blockHeight": 4,
       "view": 0,
       "phase": "pre-prepare",
@@ -373,7 +373,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400675537,
+      "timestamp": 1748504751279,
       "blockHeight": 4,
       "view": 0,
       "phase": "prepare",
@@ -382,7 +382,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400675858,
+      "timestamp": 1748504751581,
       "blockHeight": 4,
       "view": 0,
       "phase": "commit",
@@ -391,7 +391,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400675874,
+      "timestamp": 1748504751588,
       "blockHeight": 5,
       "view": 0,
       "phase": "pre-prepare",
@@ -400,7 +400,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400676407,
+      "timestamp": 1748504752091,
       "blockHeight": 5,
       "view": 0,
       "phase": "prepare",
@@ -409,7 +409,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400676726,
+      "timestamp": 1748504752395,
       "blockHeight": 5,
       "view": 0,
       "phase": "commit",
@@ -418,7 +418,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400676736,
+      "timestamp": 1748504752405,
       "blockHeight": 6,
       "view": 0,
       "phase": "pre-prepare",
@@ -427,7 +427,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400677268,
+      "timestamp": 1748504752909,
       "blockHeight": 6,
       "view": 0,
       "phase": "prepare",
@@ -436,7 +436,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400677572,
+      "timestamp": 1748504753212,
       "blockHeight": 6,
       "view": 0,
       "phase": "commit",
@@ -445,7 +445,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400677598,
+      "timestamp": 1748504753221,
       "blockHeight": 7,
       "view": 0,
       "phase": "pre-prepare",
@@ -454,7 +454,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400678129,
+      "timestamp": 1748504753724,
       "blockHeight": 7,
       "view": 0,
       "phase": "prepare",
@@ -463,7 +463,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400678446,
+      "timestamp": 1748504754026,
       "blockHeight": 7,
       "view": 0,
       "phase": "commit",
@@ -472,7 +472,7 @@
       "totalBytes": 8192
     },
     {
-      "timestamp": 1748400678544,
+      "timestamp": 1748504754130,
       "blockHeight": 8,
       "view": 0,
       "phase": "pre-prepare",
@@ -481,7 +481,7 @@
       "totalBytes": 4096
     },
     {
-      "timestamp": 1748400679072,
+      "timestamp": 1748504754632,
       "blockHeight": 8,
       "view": 0,
       "phase": "prepare",
@@ -490,7 +490,7 @@
       "totalBytes": 6144
     },
     {
-      "timestamp": 1748400679390,
+      "timestamp": 1748504754936,
       "blockHeight": 8,
       "view": 0,
       "phase": "commit",
@@ -500,254 +500,291 @@
     }
   ],
   "viewChanges": [],
-  "byzantineEvents": [],
+  "byzantineEvents": [
+    {
+      "timestamp": 1748504749640,
+      "validator": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "validatorIndex": 3,
+      "blockHeight": 2,
+      "view": 0,
+      "phase": "commit",
+      "failureType": "delayed"
+    },
+    {
+      "timestamp": 1748504750161,
+      "validator": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "validatorIndex": 3,
+      "blockHeight": 3,
+      "view": 0,
+      "phase": "prepare",
+      "failureType": "delayed"
+    },
+    {
+      "timestamp": 1748504752091,
+      "validator": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "validatorIndex": 3,
+      "blockHeight": 5,
+      "view": 0,
+      "phase": "commit",
+      "failureType": "delayed"
+    },
+    {
+      "timestamp": 1748504753423,
+      "validator": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+      "validatorIndex": 3,
+      "blockHeight": 7,
+      "view": 0,
+      "phase": "prepare",
+      "failureType": "delayed"
+    }
+  ],
   "consensusPhases": [
     {
-      "timestamp": 1748400672629,
+      "timestamp": 1748504748519,
       "blockHeight": 1,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 214,
+      "duration": 201,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400672951,
+      "timestamp": 1748504748822,
       "blockHeight": 1,
       "view": 0,
       "phase": "prepare",
-      "duration": 322,
+      "duration": 302,
       "messageCount": 12,
       "participantCount": 3,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400673271,
+      "timestamp": 1748504749125,
       "blockHeight": 1,
       "view": 0,
       "phase": "commit",
-      "duration": 319,
+      "duration": 302,
       "messageCount": 16,
       "participantCount": 4,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400673491,
+      "timestamp": 1748504749336,
       "blockHeight": 2,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 213,
+      "duration": 200,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400673810,
+      "timestamp": 1748504749638,
       "blockHeight": 2,
       "view": 0,
       "phase": "prepare",
-      "duration": 318,
+      "duration": 302,
       "messageCount": 12,
       "participantCount": 3,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400674129,
+      "timestamp": 1748504749943,
       "blockHeight": 2,
       "view": 0,
       "phase": "commit",
-      "duration": 319,
+      "duration": 303,
       "messageCount": 16,
       "participantCount": 4,
-      "byzantineCount": 0
+      "byzantineCount": 1
     },
     {
-      "timestamp": 1748400674350,
+      "timestamp": 1748504750161,
       "blockHeight": 3,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 213,
+      "duration": 201,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400674670,
+      "timestamp": 1748504750464,
       "blockHeight": 3,
       "view": 0,
       "phase": "prepare",
-      "duration": 320,
+      "duration": 302,
       "messageCount": 12,
       "participantCount": 3,
-      "byzantineCount": 0
+      "byzantineCount": 1
     },
     {
-      "timestamp": 1748400674989,
+      "timestamp": 1748504750765,
       "blockHeight": 3,
       "view": 0,
       "phase": "commit",
-      "duration": 319,
+      "duration": 301,
       "messageCount": 16,
       "participantCount": 4,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400675217,
+      "timestamp": 1748504750977,
       "blockHeight": 4,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 213,
+      "duration": 201,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400675538,
+      "timestamp": 1748504751279,
       "blockHeight": 4,
       "view": 0,
       "phase": "prepare",
-      "duration": 319,
+      "duration": 301,
       "messageCount": 12,
       "participantCount": 3,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400675858,
+      "timestamp": 1748504751581,
       "blockHeight": 4,
       "view": 0,
       "phase": "commit",
-      "duration": 320,
+      "duration": 302,
       "messageCount": 16,
       "participantCount": 4,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400676087,
+      "timestamp": 1748504751789,
       "blockHeight": 5,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 213,
+      "duration": 201,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400676407,
+      "timestamp": 1748504752091,
       "blockHeight": 5,
       "view": 0,
       "phase": "prepare",
-      "duration": 320,
+      "duration": 302,
       "messageCount": 12,
       "participantCount": 3,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400676726,
+      "timestamp": 1748504752395,
       "blockHeight": 5,
       "view": 0,
       "phase": "commit",
-      "duration": 319,
+      "duration": 304,
       "messageCount": 16,
       "participantCount": 4,
-      "byzantineCount": 0
+      "byzantineCount": 1
     },
     {
-      "timestamp": 1748400676950,
+      "timestamp": 1748504752606,
       "blockHeight": 6,
       "view": 0,
       "phase": "pre-prepare",
-      "duration": 213,
+      "duration": 202,
       "messageCount": 4,
       "participantCount": null,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400677268,
+      "timestamp": 1748504752909,
       "blockHeight": 6,
       "view": 0,
       "phase": "prepare",
-      "duration": 318,
+      "duration": 302,
       "messageCount": 12,
       "participantCount": 3,
       "byzantineCount": 0
     },
     {
-      "timestamp": 1748400677573,
+      "timestamp": 1748504753212,
       "blockHeight": 6,
+      "view": 0,
+      "phase": "commit",
+      "duration": 302,
+      "messageCount": 16,
+      "participantCount": 4,
+      "byzantineCount": 0
+    },
+    {
+      "timestamp": 1748504753423,
+      "blockHeight": 7,
+      "view": 0,
+      "phase": "pre-prepare",
+      "duration": 201,
+      "messageCount": 4,
+      "participantCount": null,
+      "byzantineCount": 0
+    },
+    {
+      "timestamp": 1748504753725,
+      "blockHeight": 7,
+      "view": 0,
+      "phase": "prepare",
+      "duration": 301,
+      "messageCount": 12,
+      "participantCount": 3,
+      "byzantineCount": 1
+    },
+    {
+      "timestamp": 1748504754026,
+      "blockHeight": 7,
+      "view": 0,
+      "phase": "commit",
+      "duration": 301,
+      "messageCount": 16,
+      "participantCount": 4,
+      "byzantineCount": 0
+    },
+    {
+      "timestamp": 1748504754331,
+      "blockHeight": 8,
+      "view": 0,
+      "phase": "pre-prepare",
+      "duration": 200,
+      "messageCount": 4,
+      "participantCount": null,
+      "byzantineCount": 0
+    },
+    {
+      "timestamp": 1748504754633,
+      "blockHeight": 8,
+      "view": 0,
+      "phase": "prepare",
+      "duration": 301,
+      "messageCount": 12,
+      "participantCount": 3,
+      "byzantineCount": 0
+    },
+    {
+      "timestamp": 1748504754936,
+      "blockHeight": 8,
       "view": 0,
       "phase": "commit",
       "duration": 303,
       "messageCount": 16,
       "participantCount": 4,
       "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400677811,
-      "blockHeight": 7,
-      "view": 0,
-      "phase": "pre-prepare",
-      "duration": 213,
-      "messageCount": 4,
-      "participantCount": null,
-      "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400678129,
-      "blockHeight": 7,
-      "view": 0,
-      "phase": "prepare",
-      "duration": 317,
-      "messageCount": 12,
-      "participantCount": 3,
-      "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400678446,
-      "blockHeight": 7,
-      "view": 0,
-      "phase": "commit",
-      "duration": 317,
-      "messageCount": 16,
-      "participantCount": 4,
-      "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400678754,
-      "blockHeight": 8,
-      "view": 0,
-      "phase": "pre-prepare",
-      "duration": 210,
-      "messageCount": 4,
-      "participantCount": null,
-      "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400679072,
-      "blockHeight": 8,
-      "view": 0,
-      "phase": "prepare",
-      "duration": 317,
-      "messageCount": 12,
-      "participantCount": 3,
-      "byzantineCount": 0
-    },
-    {
-      "timestamp": 1748400679390,
-      "blockHeight": 8,
-      "view": 0,
-      "phase": "commit",
-      "duration": 317,
-      "messageCount": 16,
-      "participantCount": 4,
-      "byzantineCount": 0
     }
   ],
-  "startTime": 1748400669396,
-  "endTime": 1748400679405,
+  "startTime": 1748504745960,
+  "endTime": 1748504754979,
   "consensusState": [
     {
-      "timestamp": 1748400672387,
+      "timestamp": 1748504748305,
       "eventType": "initialization",
       "blockHeight": 0,
       "view": 0,
@@ -794,8 +831,8 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 0,
           "preparesReceived": 0,
           "commitsSent": 0,
@@ -807,7 +844,7 @@
       "result": null
     },
     {
-      "timestamp": 1748400673272,
+      "timestamp": 1748504749126,
       "eventType": "consensus_complete",
       "blockHeight": 1,
       "view": 0,
@@ -854,8 +891,8 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 1,
           "preparesReceived": 0,
           "commitsSent": 1,
@@ -870,17 +907,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 214,
-          "prepare": 322,
-          "commit": 319
+          "prePrepare": 201,
+          "prepare": 302,
+          "commit": 302
         },
-        "totalTime": 855,
+        "totalTime": 805,
         "txHash": "0x926fc9b15d12727b76ef1c84f63565ea19e06339041716143087d4b2242c1b4d",
-        "timestamp": 1748400673272
+        "timestamp": 1748504749126
       }
     },
     {
-      "timestamp": 1748400674129,
+      "timestamp": 1748504749943,
       "eventType": "consensus_complete",
       "blockHeight": 2,
       "view": 0,
@@ -927,14 +964,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 2,
           "preparesReceived": 0,
           "commitsSent": 2,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 1
         }
       ],
       "result": {
@@ -943,17 +980,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 318,
-          "commit": 319
+          "prePrepare": 200,
+          "prepare": 302,
+          "commit": 303
         },
-        "totalTime": 850,
+        "totalTime": 805,
         "txHash": "0x3049678b24f90c8ae5c762eaf2a5875e45521fcf106baa5e6b14bb5490dc3ac2",
-        "timestamp": 1748400674129
+        "timestamp": 1748504749943
       }
     },
     {
-      "timestamp": 1748400674990,
+      "timestamp": 1748504750766,
       "eventType": "consensus_complete",
       "blockHeight": 3,
       "view": 0,
@@ -1000,14 +1037,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 3,
           "preparesReceived": 0,
           "commitsSent": 3,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 2
         }
       ],
       "result": {
@@ -1016,17 +1053,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 320,
-          "commit": 319
+          "prePrepare": 201,
+          "prepare": 302,
+          "commit": 301
         },
-        "totalTime": 852,
+        "totalTime": 804,
         "txHash": "0xed82694cbb4fd75df1ed4abfc6f5be47c179a5d70395eb58f188c8fcc51e104f",
-        "timestamp": 1748400674990
+        "timestamp": 1748504750766
       }
     },
     {
-      "timestamp": 1748400675858,
+      "timestamp": 1748504751581,
       "eventType": "consensus_complete",
       "blockHeight": 4,
       "view": 0,
@@ -1073,14 +1110,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 4,
           "preparesReceived": 0,
           "commitsSent": 4,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 2
         }
       ],
       "result": {
@@ -1089,17 +1126,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 319,
-          "commit": 320
+          "prePrepare": 201,
+          "prepare": 301,
+          "commit": 302
         },
-        "totalTime": 852,
+        "totalTime": 804,
         "txHash": "0x73a2acec31829fa4e0a2c2e289ef1d9c17094022bd7d5c6e74767770d84a6719",
-        "timestamp": 1748400675858
+        "timestamp": 1748504751581
       }
     },
     {
-      "timestamp": 1748400676727,
+      "timestamp": 1748504752395,
       "eventType": "consensus_complete",
       "blockHeight": 5,
       "view": 0,
@@ -1146,14 +1183,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 5,
           "preparesReceived": 0,
           "commitsSent": 5,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 3
         }
       ],
       "result": {
@@ -1162,17 +1199,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 320,
-          "commit": 319
+          "prePrepare": 201,
+          "prepare": 302,
+          "commit": 304
         },
-        "totalTime": 852,
+        "totalTime": 807,
         "txHash": "0x43c8057999baaf1b261a65ad87a6e404ada15e9ceef4aee4144ff2dbed433744",
-        "timestamp": 1748400676727
+        "timestamp": 1748504752395
       }
     },
     {
-      "timestamp": 1748400677573,
+      "timestamp": 1748504753212,
       "eventType": "consensus_complete",
       "blockHeight": 6,
       "view": 0,
@@ -1219,14 +1256,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 6,
           "preparesReceived": 0,
           "commitsSent": 6,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 3
         }
       ],
       "result": {
@@ -1235,17 +1272,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 318,
-          "commit": 303
+          "prePrepare": 202,
+          "prepare": 302,
+          "commit": 302
         },
-        "totalTime": 834,
+        "totalTime": 806,
         "txHash": "0x6d39d8632b520239324d12cd4b91bf5f75440f30dc8976af596f0cbb8837a88b",
-        "timestamp": 1748400677573
+        "timestamp": 1748504753212
       }
     },
     {
-      "timestamp": 1748400678446,
+      "timestamp": 1748504754026,
       "eventType": "consensus_complete",
       "blockHeight": 7,
       "view": 0,
@@ -1292,14 +1329,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 7,
           "preparesReceived": 0,
           "commitsSent": 7,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 4
         }
       ],
       "result": {
@@ -1308,17 +1345,17 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 213,
-          "prepare": 317,
-          "commit": 317
+          "prePrepare": 201,
+          "prepare": 301,
+          "commit": 301
         },
-        "totalTime": 847,
+        "totalTime": 803,
         "txHash": "0x9deeab7658643f0bedabff584d9d6ac25221629da8367927bbf3d46e7cce1d1e",
-        "timestamp": 1748400678446
+        "timestamp": 1748504754026
       }
     },
     {
-      "timestamp": 1748400679390,
+      "timestamp": 1748504754937,
       "eventType": "consensus_complete",
       "blockHeight": 8,
       "view": 0,
@@ -1365,14 +1402,14 @@
         {
           "address": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
           "index": 3,
-          "isByzantine": false,
-          "byzantineType": null,
+          "isByzantine": true,
+          "byzantineType": "delayed",
           "preparesSent": 8,
           "preparesReceived": 0,
           "commitsSent": 8,
           "commitsReceived": 0,
           "blocksProposed": 0,
-          "failures": 0
+          "failures": 4
         }
       ],
       "result": {
@@ -1381,25 +1418,25 @@
         "view": 0,
         "primary": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
         "phaseTimings": {
-          "prePrepare": 210,
-          "prepare": 317,
-          "commit": 317
+          "prePrepare": 200,
+          "prepare": 301,
+          "commit": 303
         },
-        "totalTime": 844,
+        "totalTime": 804,
         "txHash": "0x1d0decfed8503274b3e2e1c95d602d172cf453fa8f3f789d4bfe6360d074ec1e",
-        "timestamp": 1748400679390
+        "timestamp": 1748504754937
       }
     }
   ],
   "pbftConfiguration": {
     "validators": 4,
-    "byzantineValidators": 0,
+    "byzantineValidators": 1,
     "byzantineTypes": [
       "crash",
       "malicious",
       "delayed"
     ],
-    "failureProbability": 0.05,
+    "failureProbability": 0.3,
     "maxTolerableFailures": 1,
     "phaseTiming": {
       "prePrepare": 200,
@@ -1408,18 +1445,18 @@
       "viewChange": 2000
     }
   },
-  "totalDuration": 10009,
+  "totalDuration": 9019,
   "report": {
     "consensusMechanism": "PBFT",
     "configuration": {
       "validators": 4,
-      "byzantineValidators": 0,
+      "byzantineValidators": 1,
       "byzantineTypes": [
         "crash",
         "malicious",
         "delayed"
       ],
-      "failureProbability": 0.05,
+      "failureProbability": 0.3,
       "maxTolerableFailures": 1,
       "phaseTiming": {
         "prePrepare": 200,
@@ -1432,32 +1469,32 @@
       "totalTransactions": 8,
       "successfulConsensusCount": 8,
       "consensusSuccessRate": 100,
-      "byzantineEventCount": 0,
+      "byzantineEventCount": 4,
       "viewChangeCount": 0
     },
     "performance": {
       "finalityTimes": {
-        "average": 848.25,
-        "min": 834,
-        "max": 855,
+        "average": 804.75,
+        "min": 803,
+        "max": 807,
         "guaranteedFinality": "Immediate once committed (if 2f+1 honest nodes)"
       },
       "phaseBreakdown": {
         "prePrepare": 0,
-        "prepare": 318.875,
-        "commit": 316.625,
+        "prepare": 301.625,
+        "commit": 302.25,
         "viewChange": 0
       },
       "throughput": {
-        "transactionsPerSecond": 0.7992806474173244,
-        "potentialTps": 1.1788977306218686
+        "transactionsPerSecond": 0.8870162989244927,
+        "potentialTps": 1.2426219322771046
       }
     },
     "resourceUsage": {
-      "averageCpu": 34.89500671742552,
-      "averageMemory": 267.13050583724083,
-      "averageNetwork": 835.614372884503,
-      "byzantineImpact": "No Byzantine failures occurred during measurement"
+      "averageCpu": 33.926804278594346,
+      "averageMemory": 267.8585576206867,
+      "averageNetwork": 848.546878410617,
+      "byzantineImpact": "Byzantine failures increased resource usage by approximately 20% per faulty node"
     },
     "networkOverhead": {
       "messagesPerConsensus": 10.666666666666666,
@@ -1470,18 +1507,18 @@
     },
     "faultTolerance": {
       "maximumByzantineNodes": 1,
-      "actualByzantineNodes": 0,
+      "actualByzantineNodes": 1,
       "viewChanges": 0,
       "systemStability": "System remained stable with primary validators"
     },
     "comparisonMetrics": {
       "blockTime": 1000,
-      "finalityTime": 848.25,
+      "finalityTime": 804.75,
       "messageComplexity": "O(n²)",
       "resourceUsage": {
-        "cpu": 34.89500671742552,
-        "memory": 267.13050583724083,
-        "network": 835.614372884503
+        "cpu": 33.926804278594346,
+        "memory": 267.8585576206867,
+        "network": 848.546878410617
       },
       "bytesSent": 6144,
       "faultTolerance": "1/4 Byzantine failures",
