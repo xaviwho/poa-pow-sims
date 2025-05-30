@@ -1,175 +1,244 @@
-# Tendermint
+Certainly! Here's a comprehensive and professional README.md file tailored for your GitHub repository: https://github.com/xaviwho/poa-pow-sims. This README is structured to provide clear insights into your project, facilitating understanding and engagement from developers, researchers, and contributors.
 
-![banner](docs/tendermint-core-image.jpg)
 
-[Byzantine-Fault Tolerant][bft] [State Machine Replication][smr]. Or
-[Blockchain], for short.
+---
 
-[![Version][version-badge]][version-url]
-[![API Reference][api-badge]][api-url]
-[![Go version][go-badge]][go-url]
-[![Discord chat][discord-badge]][discord-url]
-[![License][license-badge]][license-url]
-[![Sourcegraph][sg-badge]][sg-url]
+PoA vs PoW Simulation Framework for K-ETS Blockchain
 
-| Branch | Tests                              | Linting                         |
-|--------|------------------------------------|---------------------------------|
-| main   | [![Tests][tests-badge]][tests-url] | [![Lint][lint-badge]][lint-url] |
+This repository presents a simulation framework designed to evaluate and compare various blockchain consensus mechanisms—specifically PoA, PoW, DPoS, PBFT, and PoA Square—in the context of the Korean Emissions Trading Scheme (K-ETS). The simulations focus on key performance metrics such as gas usage, block time, throughput, finality, and validator reliability. 
 
-Tendermint Core is a Byzantine Fault Tolerant (BFT) middleware that takes a
-state transition machine - written in any programming language - and securely
-replicates it on many machines.
 
-For protocol details, refer to the [Tendermint Specification](./spec/README.md).
+---
 
-For detailed analysis of the consensus protocol, including safety and liveness
-proofs, read our paper, "[The latest gossip on BFT
-consensus](https://arxiv.org/abs/1807.04938)".
+📌 Table of Contents
 
-## Documentation
+Overview
 
-Complete documentation can be found on the
-[website](https://docs.tendermint.com/).
+Features
 
-## Releases
+Consensus Mechanisms Evaluated
 
-Please do not depend on `main` as your production branch. Use
-[releases](https://github.com/tendermint/tendermint/releases) instead.
+Simulation Scenarios
 
-Tendermint has been in the production of private and public environments, most
-notably the blockchains of the Cosmos Network. we haven't released v1.0 yet
-since we are making breaking changes to the protocol and the APIs. See below for
-more details about [versioning](#versioning).
+Results Summary
 
-In any case, if you intend to run Tendermint in production, we're happy to help.
-You can contact us [over email](mailto:hello@interchain.io) or [join the
-chat](https://discord.gg/cosmosnetwork).
+Technical Architecture
 
-More on how releases are conducted can be found [here](./RELEASES.md).
+Installation
 
-## Security
+Usage
 
-To report a security vulnerability, see our [bug bounty
-program](https://hackerone.com/cosmos). For examples of the kinds of bugs we're
-looking for, see [our security policy](SECURITY.md).
+Project Structure
 
-We also maintain a dedicated mailing list for security updates. We will only
-ever use this mailing list to notify you of vulnerabilities and fixes in
-Tendermint Core. You can subscribe [here](http://eepurl.com/gZ5hQD).
+Contributing
 
-## Minimum requirements
+License
 
-| Requirement | Notes             |
-|-------------|-------------------|
-| Go version  | Go 1.18 or higher |
+Acknowledgments
 
-### Install
 
-See the [install instructions](./docs/introduction/install.md).
 
-### Quick Start
+---
 
-- [Single node](./docs/introduction/quick-start.md)
-- [Local cluster using docker-compose](./docs/tools/docker-compose.md)
-- [Remote cluster using Terraform and Ansible](./docs/tools/terraform-and-ansible.md)
+📖 Overview
 
-## Contributing
+The goal of this project is to provide a robust simulation environment to assess the performance and suitability of different blockchain consensus algorithms for applications within the K-ETS. By analyzing metrics such as gas consumption, transaction throughput, and validator reliability, stakeholders can make informed decisions on the optimal consensus mechanism for carbon credit trading platforms. 
 
-Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
 
-Before contributing to the project, please take a look at the [contributing
-guidelines](CONTRIBUTING.md) and the [style guide](STYLE_GUIDE.md). You may also
-find it helpful to read the [specifications](./spec/README.md), and familiarize
-yourself with our [Architectural Decision Records
-(ADRs)](./docs/architecture/README.md) and
-[Request For Comments (RFCs)](./docs/rfc/README.md).
+---
 
-## Versioning
+✨ Features
 
-### Semantic Versioning
+Simulation of five consensus mechanisms: PoA, PoW, DPoS, PBFT, and PoA Square.
 
-Tendermint uses [Semantic Versioning](http://semver.org/) to determine when and
-how the version changes. According to SemVer, anything in the public API can
-change at any time before version 1.0.0
+Evaluation of performance metrics including gas usage, block time, finality, throughput, and validator reliability.
 
-To provide some stability to users of 0.X.X versions of Tendermint, the MINOR
-version is used to signal breaking changes across Tendermint's API. This API
-includes all publicly exposed types, functions, and methods in non-internal Go
-packages as well as the types and methods accessible via the Tendermint RPC
-interface.
+Validator scaling tests with configurations of 3, 5, and 7 validators.
 
-Breaking changes to these public APIs will be documented in the CHANGELOG.
+Transaction stress tests with varying transaction rates (1, 2, 5, 10, 20, 50 tx/sec).
 
-### Upgrades
+Automated generation of comprehensive performance reports in JSON format.
 
-In an effort to avoid accumulating technical debt prior to 1.0.0, we do not
-guarantee that breaking changes (ie. bumps in the MINOR version) will work with
-existing Tendermint blockchains. In these cases you will have to start a new
-blockchain, or write something custom to get the old data into the new chain.
-However, any bump in the PATCH version should be compatible with existing
-blockchain histories.
+Visualization tools for analyzing simulation results. 
 
-For more information on upgrading, see [UPGRADING.md](./UPGRADING.md).
 
-### Supported Versions
 
-Because we are a small core team, we only ship patch updates, including security
-updates, to the most recent minor release and the second-most recent minor
-release. Consequently, we strongly recommend keeping Tendermint up-to-date.
-Upgrading instructions can be found in [UPGRADING.md](./UPGRADING.md).
+---
 
-## Resources
+⚙️ Consensus Mechanisms Evaluated
 
-### Libraries
+Proof of Work (PoW): Traditional consensus mechanism relying on computational effort.
 
-- [Cosmos SDK](http://github.com/cosmos/cosmos-sdk); A framework for building
-  applications in Golang
-- [Tendermint in Rust](https://github.com/informalsystems/tendermint-rs)
-- [ABCI Tower](https://github.com/penumbra-zone/tower-abci)
+Proof of Authority (PoA): Consensus based on a set of trusted validators.
 
-### Applications
+Delegated Proof of Stake (DPoS): Stakeholder-elected validators participate in consensus.
 
-- [Cosmos Hub](https://hub.cosmos.network/)
-- [Terra](https://www.terra.money/)
-- [Celestia](https://celestia.org/)
-- [Anoma](https://anoma.network/)
-- [Vocdoni](https://docs.vocdoni.io/)
+Practical Byzantine Fault Tolerance (PBFT): Consensus achieved through a multi-phase voting process.
 
-### Research
+PoA Square (PoA²): Enhanced PoA with validator reliability scoring and replacement mechanisms. 
 
-- [The latest gossip on BFT consensus](https://arxiv.org/abs/1807.04938)
-- [Master's Thesis on Tendermint](https://atrium.lib.uoguelph.ca/xmlui/handle/10214/9769)
-- [Original Whitepaper: "Tendermint: Consensus Without Mining"](https://tendermint.com/static/docs/tendermint.pdf)
-- [Tendermint Core Blog](https://medium.com/tendermint/tagged/tendermint-core)
-- [Cosmos Blog](https://blog.cosmos.network/tendermint/home)
 
-## Join us!
 
-Tendermint Core is maintained by [Interchain GmbH](https://interchain.berlin).
-If you'd like to work full-time on Tendermint Core,
-[we're hiring](https://interchain-gmbh.breezy.hr/)!
+---
 
-Funding for Tendermint Core development comes primarily from the
-[Interchain Foundation](https://interchain.io), a Swiss non-profit. The
-Tendermint trademark is owned by [Tendermint Inc.](https://tendermint.com), the
-for-profit entity that also maintains [tendermint.com](https://tendermint.com).
+🧪 Simulation Scenarios
 
-[bft]: https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
-[smr]: https://en.wikipedia.org/wiki/State_machine_replication
-[Blockchain]: https://en.wikipedia.org/wiki/Blockchain
-[version-badge]: https://img.shields.io/github/tag/tendermint/tendermint.svg
-[version-url]: https://github.com/tendermint/tendermint/releases/latest
-[api-badge]: https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-[api-url]: https://pkg.go.dev/github.com/tendermint/tendermint
-[go-badge]: https://img.shields.io/badge/go-1.18-blue.svg
-[go-url]: https://github.com/moovweb/gvm
-[discord-badge]: https://img.shields.io/discord/669268347736686612.svg
-[discord-url]: https://discord.gg/cosmosnetwork
-[license-badge]: https://img.shields.io/github/license/tendermint/tendermint.svg
-[license-url]: https://github.com/tendermint/tendermint/blob/main/LICENSE
-[sg-badge]: https://sourcegraph.com/github.com/tendermint/tendermint/-/badge.svg
-[sg-url]: https://sourcegraph.com/github.com/tendermint/tendermint?badge
-[tests-url]: https://github.com/tendermint/tendermint/actions/workflows/tests.yml
-[tests-badge]: https://github.com/tendermint/tendermint/actions/workflows/tests.yml/badge.svg?branch=main
-[lint-badge]: https://github.com/tendermint/tendermint/actions/workflows/lint.yml/badge.svg
-[lint-url]: https://github.com/tendermint/tendermint/actions/workflows/lint.yml
+Validator Scaling Test
+
+Assesses how each consensus mechanism performs with varying numbers of validators (3, 5, and 7). Metrics evaluated include: 
+
+Gas usage
+
+Block time
+
+Transaction throughput 
+
+
+Transaction Stress Test
+
+Evaluates the performance under increasing transaction loads (1, 2, 5, 10, 20, 50 tx/sec) while maintaining a constant number of validators. Metrics evaluated include: 
+
+Success rate
+
+Latency
+
+Maximum throughput 
+
+
+
+---
+
+📊 Results Summary
+
+Consensus	Avg. Block Time	Finality	Throughput (tx/s)	Reliability Score
+
+PoW	15,000 ms	~90,000 ms	0.07	N/A
+PoA	15,000 ms	~15,000 ms	0.07	N/A
+DPoS	2,918 ms	~6,020 ms	0.34	N/A
+PBFT	876 ms	865 ms	0.80	N/A
+PoA²	8,194 ms	~8,194 ms	0.65	1.0
+
+
+*Note: PoA² uniquely incorporates a validator reliability scoring system, enhancing network trustworthiness.* 
+
+
+---
+
+🛠️ Technical Architecture
+
+Local Blockchain Environment: Simulations run on a local Hardhat node with customized network parameters.
+
+Smart Contract Deployment: A KETSBlockchain contract simulates carbon credit operations.
+
+Account Simulation: Programmatic creation of regulator, validator, and industry accounts.
+
+Transaction Sequence Generation: Automated transaction submissions with controlled timing.
+
+Metrics Collection: Precise measurement of gas usage, latency, throughput, and success rates. 
+
+
+
+---
+
+🚀 Installation
+
+1. Clone the repository:
+
+git clone https://github.com/xaviwho/poa-pow-sims.git
+cd poa-pow-sims
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Compile smart contracts:
+
+npx hardhat compile
+
+
+
+
+---
+
+🧰 Usage
+
+Running Validator Scaling Test
+
+npx hardhat run scripts/validator-scaling-test.js
+
+Running Transaction Stress Test
+
+npx hardhat run scripts/transaction-stress-test.js
+
+Viewing Results
+
+Simulation results are stored in the results/ directory in JSON format. 
+
+
+---
+
+📁 Project Structure
+
+poa-pow-sims/
+├── contracts/                # Smart contracts
+├── scripts/                  # Simulation scripts
+├── results/                  # Simulation results
+├── test/                     # Test cases
+├── hardhat.config.js         # Hardhat configuration
+├── package.json              # Project metadata and dependencies
+└── README.md                 # Project documentation
+
+
+
+
+---
+
+🤝 Contributing
+
+Contributions are welcome! Please follow these steps: 
+
+1. Fork the repository
+
+
+2. Create a new branch:
+
+git checkout -b feature/YourFeature
+
+
+3. Commit your changes:
+
+git commit -m "Add your feature"
+
+
+4. Push to the branch:
+
+git push origin feature/YourFeature
+
+
+5. Open a pull request
+
+
+
+
+---
+
+📄 License
+
+This project is licensed under the MIT License. 
+
+
+---
+
+🙏 Acknowledgments
+
+Inspired by the need for efficient and reliable blockchain solutions in environmental markets.
+
+Thanks to the open-source community for tools and frameworks that made this project possible. 
+
+
+
+---
+
+Feel free to customize this README further to align with your project's specifics. If you need assistance with additional documentation or have other questions, don't hesitate to ask!
